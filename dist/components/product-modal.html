@@ -1,0 +1,84 @@
+ <!--GLobal Container -->
+ <div
+ class="flex flex-col justify-center items-center min-h-screen bg-slate-100"
+>
+ Global Container
+ <!-- Card Container -->
+ <div
+   class="flex flex-col p-6 m-3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16"
+ >
+   <!--2 Div for image and content -->
+   <!-- Image Div -->
+   <div>
+     <img
+       src="images/headphone.png"
+       alt="Cat headphone"
+       class="mx-auto w-60 duration-200 hover:scale-105"
+     />
+   </div>
+   <!-- Content Div -->
+   <div class="flex flex-col">
+     <!-- Label & Title Container -->
+     <div
+       class="flex flex-col items-center mb-4 space-y-3 text-center md:tex-left md:items-start"
+     >
+       <!-- Free Shipping -->
+       <div
+         class="inline-block px-3 py-1 text-sm text-white bg-black rounded-2xl w-30"
+       >
+         Free Shipping
+       </div>
+       <!-- Produt name -->
+       <div class="flex flex-col space-y-3 text-center md:text-left">
+         <h2 class="max-w-sm text-2xl font-medium md:text-left">
+           Razer Kraken Kitty Edit Gaming Headset Quartz
+         </h2>
+         <!-- Price Container(Original,Discounted, Product Notes) -->
+         <p class="line-through">$799</p>
+         <h1 class="text-5xl font-bold">$599</h1>
+         <p class="text-xs text-gray-400">
+           This offer is valid until April 3rd or as long as stock lasts!
+         </p>
+       </div>
+     </div>
+     <!-- Purchase Button -->
+     <div class="group">
+       <button
+         class="w-full transition-all duration-150 bg-blue-700 text-white border-b-8 border-b-blue-700 rounded-lg group-hover:border-t-8 group-hover:border-b-0 group-hover:bg-blue-700 group-hover:border-t-blue-700 group-hover:shadow-lg"
+       >
+         <div
+           class="px-8 py-4 duration-200 bg-blue-500 rounded-lg group-hover:bg-blue-700"
+         >
+           Purchase
+         </div>
+       </button>
+     </div>
+     <!-- Active Stock -->
+     <div class="flex items-center space-x-3 group m-3">
+       <!-- Online Svg -->
+       <div
+         class="h-3 w-3 bg-green-500 rounded-full group-hover:animate-ping"
+       ></div>
+       <!-- Stock Number -->
+       <p class="text-sm">50+pcs. in stock</p>
+     </div>
+     <!-- Button group -->
+     <div
+       class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-3"
+     >
+       <button
+         class="flex items-center justify-center w-full px-5 py-3 border space-x-3 border-slate-400 rounded-xl hover:shadow-lg hover:translate-y-0.5 transition-all duration-200"
+       >
+         <img src="images/weight.png" alt="weigh-logo" class="w-8" />
+         <h3 class="text-sm">Add to Cart</h3>
+       </button>
+       <button
+         class="flex items-center justify-center w-full px-5 py-3 border space-x-3 border-slate-400 rounded-xl hover:shadow-lg hover:translate-y-0.5 transition-all duration-200"
+       >
+         <img src="images/heart.png" alt="weigh-logo" class="w-8" />
+         <h3 class="text-sm">Add to wishlist</h3>
+       </button>
+     </div>
+   </div>
+ </div>
+</div>
