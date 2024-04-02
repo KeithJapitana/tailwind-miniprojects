@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h3{
+    @apply mb-8 text-4xl font-bold text-center text-darkGrayishBlue md:text-5xl;
+  }
+  h5{
+    @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+  }
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center;
+}
+
+/* Buttons */
+.button-container {
+ @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
+
+.buttons{
+  @apply p-4 px-20 rounded-full shadow-lg duration-200 hover:opacity-80;
+}
+
+.buttons--primary{
+  @apply  bg-strongCyan;
+}
+
+.buttons--secondary{
+  @apply  bg-lightBlue ;
+}
+
+.section-paragraph {
+  @apply max-w-3xl mx-auto text-2xl leading-9 text-center text-grayishBlue;
+}
+
+.item-container{
+  @apply flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12;
+}
+
+
+
+body {
+  background-image: url('../dist/images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: url('../dist/images/bg-header-mobile.png');
+  }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%)  saturate(43%) hue-rotate(121deg) brightness(101%) contrast(94%) ;
+}

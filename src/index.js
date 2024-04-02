@@ -1,1 +1,7 @@
-import "./style.css";
+import './style.css';
+
+'use-strict';
+
+
+
+
